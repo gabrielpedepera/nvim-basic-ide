@@ -23,7 +23,7 @@ M.setup = function()
 	end
 
 	local config = {
-		virtual_text = true,
+		virtual_text = false, -- disable virtual text (too much noise) 
 		signs = {
 			active = signs, -- show signs
 		},
